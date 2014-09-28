@@ -50,7 +50,7 @@ public class FlexibleSpaces {
 			if(possible[i]) System.out.print(i + " ");
 		}
 		
-		if(possible[width]) System.out.print((width) + " ");
+		if(possible[width]) System.out.println(width);
 		
 		io.close();
 
