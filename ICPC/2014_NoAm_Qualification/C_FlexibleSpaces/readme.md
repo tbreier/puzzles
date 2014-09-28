@@ -1,3 +1,5 @@
+```bash
 $ javac FlexibleSpaces.java 
-$ java FlexibleSpaces < A.in
-1 2 3 4 6 7 8 9 10 
+$ cmp <(for f in tests/*.in; do Java FlexibleSpaces < $f; done) <(for f in tests/*.ans; do cat $f; done)
+$ # (no output)
+```
